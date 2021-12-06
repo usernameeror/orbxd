@@ -873,7 +873,7 @@ class crack:
                 except Exception as e:
                     print(("   %s"%e))
                     continue
-                print('%s╠══[%s•%s] %sFor example : jeeck,786786,123456'%(O,P,O,P))
+                print('%s╠══[%s•%s] %sFor example : Cepeh,786786,123456'%(O,P,O,P))
                 self.pwlist()
                 break
             elif f in ['d','D','1','01','001']:
