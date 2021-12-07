@@ -58,7 +58,19 @@ def clear():
     elif "win" in sys.platform.lower():os.system("cls")
     else:os.system("clear")
 def banner():
-    print("\n%s    _________ __     \n%s   / ____/ (_) /____  ║ %sDesign By %sBINTANG %s- %sXD\n%s  / __/ / / / __/ _ \ ║ %sFB %s: %sFacebook.com/1000xxxx\n%s / /___/ / / /_/  __/ ║ %sFB %s: %sBintang Tzy\n%s/_____/_/_/\__/\___/  ║ %sGithub %s: %sGithub.com/bot-85\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
+    print("""
+\x1b[1;91m ___________          _____ _____________________
+\x1b[1;92m \_   _____/         /     \\______   \_   _____/ 
+\x1b[1;93m  |    __)  ______  /  \ /  \|    |  _/|    __)   
+\x1b[1;94m  |     \  /_____/ /    Y    \    |   \|     \    
+\x1b[1;95m  \___  /          \____|__  /______  /\___  /       
+\x1b[1;96m      \/                   \/       \/     \/    
+
+\x1b[1;97m[\x1b[1;94m+\x1b[1;97m] \x1b[1;94mCreated By \x1b[1;97m: \x1b[1;93mBINTANG-XD
+\x1b[1;97m[\x1b[1;94m+\x1b[1;97m] \x1b[1;94mFb         \x1b[1;97m: \x1b[1;93mBintang Tzy
+\x1b[1;97m[\x1b[1;94m+\x1b[1;97m] \x1b[1;94mGh         \x1b[1;97m: \x1b[1;93mhttps://github.com/bot-85
+\x1b[1;97m[\x1b[1;94m+\x1b[1;97m] \x1b[1;94mWa         \x1b[1;97m: \x1b[1;93m+628380192xxxx
+""")
 def menu_log():
     os.system('rm -rf token.txt')
     clear()
